@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+
+<html lang="">
+<head>
+<title>DEALHOUSE</title>
+<meta charset="utf-8">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<link href="lft/styles/layout.css" rel="stylesheet" type="text/css" media="all">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+
+<script type="text/javascript" src="../js/jssor.slider.mini.js"></script>
+
+ <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/full-slider.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+
+<!-- read the discryption at last and also remove unused scripts from the css and java folder -->
+
+<link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="../ideal-image-slider.css">
+  <link rel="stylesheet" href="../themes/default/default.css">
+
+
+   <script>
+  $(document).ready(function(){
+
+var quantitiy=0;
+   $('.quantity-right-plus').click(function(e){
+        
+        // Stop acting like a button
+        e.preventDefault();
+        // Get the field name
+        
+        
+        // If is not undefined
+            var quantity = parseInt($('#quantity').val());
+        
+            $('#quantity').val(quantity + 1);
+
+          
+            // Increment
+        
+    });
+
+     $('.quantity-left-minus').click(function(e){
+        // Stop acting like a button
+        e.preventDefault();
+        // Get the field name
+       
+    var quantity = parseInt($('#quantity').val());
+        
+        // If is not undefined
+      
+            // Increment
+            if(quantity>1){
+            $('#quantity').val(quantity - 1);
+            }
+    });
+    
+});
+  </script>
+  <style>
+.button {
+  border-radius: 4px;
+  background-color:green ;
+  border: none;
+  color:white;
+  text-align: center;
+  font-size: 28px;
+  padding: -20px;
+  width: 150px;
+  transition: all 0.5s;
+  cursor: pointer;
+  float:right;
+  margin:121px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 20px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+</style>
+
+
+  <style media="screen">
+  #slider {
+       margin:0 auto;
+    width: 100%;
+      }
+
+#custom-search-input{
+    padding: 3px;
+    border: solid 1px #E4E4E4;
+    border-radius: 6px;
+    background-color: #fff;
+}
+
+#custom-search-input input{
+    border: 0;
+    box-shadow: none;
+}
+
+#custom-search-input button{
+    margin: 2px 0 0 0;
+    background: none;
+    box-shadow: none;
+    border: 0;
+    color: #666666;
+    padding: 0 8px 0 10px;
+    border-left: solid 1px #ccc;
+}
+
+#custom-search-input button:hover{
+    border: 0;
+    box-shadow: none;
+    border-left: solid 1px #ccc;
+}
+
+#custom-search-input .glyphicon-search{
+    font-size: 23px;
+}
+
+</style>
+
+
+<style type="text/css">
+/* DEMO ONLY */
+.container .demo{text-align:center;}
+.container .demo div{padding:50px ;}
+.container .demo div:nth-child(odd){color:#FFFFFF; background:#CCCCCC;}
+.container .demo div:nth-child(even){color:#FFFFFF; background:#979797;}
+@media screen and (max-width:900px){.container .demo div{margin-bottom:0;}}
+/* DEMO ONLY */
+</style>
+
+
+<!--   <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>eCommerce Product Detail</title>
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet"> -->
+</head>
+<body id="top">
+
+
+
+<!-- iudhisdjds -->
+
+
+
+
+
+<!-- jduashud -->
+
+<div class="wrapper row0">
+  <div id="topbar" class="hoc clear"> 
+    <div class="fl_left">
+      <ul>
+        <li>user name info to br displayed here </li>
+        <li>TRACK ITEMS</li>
+      </ul>
+    </div>
+    <div class="fl_right">
+      <ul>
+        <li><a href="#"><i class="fa fa-lg fa-home"></i></a></li>
+        <li><a href="#">LOGIN</a></li>  
+         <!--  login and signup on same page  -->
+        <li><a href="#">DEALER LOGIN</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+<div class="wrapper row1">
+  <header id="header" class="hoc clear"> 
+    <div id="logo" class="fl_left">
+      <h1><a href="index.html">DEALHOUSE</a></h1>
+      <p>Be AWWesome.</p>
+    </div>
+
+  
+        <div class="col-md-8">
+            <div id="custom-search-input">
+                <div class="input-group col-md-12">
+                    <input type="text" class="form-control input-lg" placeholder="tell us waht you want " />
+                    <span class="input-group-btn">
+                        <button class="btn btn-info btn-lg" type="button">
+                            <i class="glyphicon glyphicon-search"></i>
+                        </button>
+                    </span>
+                </div>
+            </div>
+        </div>
+
+
+    <div id="quickinfo" class="fl_right">
+      <ul class="nospace inline">
+        <li><strong>CART:</strong><br>
+         </li>
+        <li><strong>just the stuff </strong><br>
+          </li>
+      </ul>
+    </div>
+  </header>
+  <div id="tcx"></div>
+  <nav id="mainav" class="hoc clear" > 
+    <ul class="clear">
+      <li class="active"><a href="index.html">HOME</a></li>
+      <li data-toggle="modal" data-target="#myModal3"><a href="#tcx">MEN</a>
+        
+      </li>
+      <li data-toggle="modal" data-target="#myModal1"><a href="#tcx">WOMEN</a>
+        
+      </li>
+      <li data-toggle="modal" data-target="#myModal1"><a href="#tcx">ELECTRONICS</a></li>
+      <li data-toggle="modal" data-target="#myModal1"><a href="#tcx">DROP</a></li>
+      <li data-toggle="modal" data-target="#myModal1"><a href="#tcx">VOTE</a></li>
+      <li data-toggle="modal" data-target="#myModal1" ><a href="#tcx" >DISCUSSIONs</a></li>
+    </ul>
+  </nav>
+</div>
+
+
+      
+
+<div class="wrapper row3">
+  <main class="hoc container clear"> 
+    <!-- main body -->
+    <!-- ################################################################################################ -->
+    <div class="content"> 
+      <!-- ################################################################################################ -->
+      <h2>   </h2>
+      <!-- ################################################################################################ -->
+      <div class="group btmspace-50 demo">
+        <div class="one_half first" data-toggle="modal" data-target="#myModal3"></div>
+        <div class="one_half" data-toggle="modal" data-target="#myModal3"></div>
+      </div>
+      <!-- ################################################################################################ -->
+      <h2>   </h2>
+      <!-- ################################################################################################ -->
+      <div class="group btmspace-50 demo">
+        <div class="one_quarter first" data-toggle="modal" data-target="#myModal3"></div>
+        <div class="one_quarter" data-toggle="modal" data-target="#myModal3"></div>
+        <div class="one_quarter" data-toggle="modal" data-target="#myModal3"></div>
+        <div class="one_quarter" data-toggle="modal" data-target="#myModal3"></div>
+      </div>
+      <div class="group btmspace-50 demo">
+        <div class="one_quarter first" data-toggle="modal" data-target="#myModal3"> </div>
+        <div class="one_quarter" data-toggle="modal" data-target="#myModal3"></div>
+        <div class="two_quarter" data-toggle="modal" data-target="#myModal3"></div>
+      </div>
+      <div class="group btmspace-50 demo">
+        <div class="one_quarter first" data-toggle="modal" data-target="#myModal3"></div>
+        <div class="three_quarter" data-toggle="modal" data-target="#myModal3"></div>
+      </div>
+      <!-- ################################################################################################ -->
+      <h2>    </h2>
+      <!-- ################################################################################################ -->
+      <div class="group btmspace-50 demo">
+        <div class="one_third first" data-toggle="modal" data-target="#myModal3"></div>
+        <div class="one_third" data-toggle="modal" data-target="#myModal3"></div>
+        <div class="one_third" data-toggle="modal" data-target="#myModal3"></div>
+      </div>
+      <div class="group demo">
+        <div class="one_third first" data-toggle="modal" data-target="#myModal3"></div>
+        <div class="two_third" data-toggle="modal" data-target="#myModal3"></div>
+      </div>
+      <!-- ################################################################################################ -->
+    </div>
+    <!-- ################################################################################################ -->
+    <!-- / main body -->
+    <div class="clear"></div>
+  </main>
+</div>
+
+
+
+
+<div class="wrapper row4 bgded overlay" style="background-color: black;">
+  <footer id="footer" class="hoc clear" > 
+    <div class="one_third first">
+      <h6 class="heading">CONTACT US</h6>
+      <ul class="nospace btmspace-30 linklist contact">
+        <li>
+          
+        </li>
+        <li>Write at <a>dealhouse.in</a></li>
+        <li>Consumer Care: 9876542---</li>
+        <li>Happy to help !!</li>
+      </ul>
+    </div>
+    <div class="one_third">
+      <h6 class="heading">GET UPDATES</h6>
+      <p class="nospace btmspace-30">SUBSCRIBE TO OUR NEWSLETTER BY FILLING THE LINK BELOW </p>
+  
+         <!--  isse bhi deekh lena working hona cahiye user ek baar main sabko loveletter bhej sake  -->
+
+      <form method="post" action="#">
+        <fieldset>
+          <legend>Newsletter:</legend>
+          <input class="btmspace-15" type="text" value="" placeholder="Name">
+          <input class="btmspace-15" type="text" value="" placeholder="Email">
+          <button type="submit" value="submit">Submit</button>
+        </fieldset>
+      </form>
+    </div>
+    <div class="one_third">
+      <h6 class="heading">Locate us</h6>
+      <figure><a href="#"><img class="borderedbox inspace-10 btmspace-15" src="images/demo/locate.jpg" alt=""></a>
+        <figcaption>
+          <h6 class="nospace font-x1"><a href="#">#12 , block 1,Sector 13 , Chandigarh</a></h6>
+        
+        </figcaption>
+      </figure>
+    </div>
+  </footer>
+</div>
+<div class="wrapper row5">
+  <div id="copyright" class="hoc clear"> 
+    <p class="fl_left">Copyright &copy; 2017 - All Rights Reserved - <a href="#">DEALHOUSE</a></p>
+   
+  </div>
+</div>
+
+<!--<button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal1">Open Modal</button>-->
+
+
+<a id="backtotop" href="#top"><i class="fa fa-chevron-up"></i></a>
+
+
+<!-- product display modal -->
+  <div class="modal fade" id="myModal" role="dialog" >
+    <div class="modal-dialog" style="height: 100%;width: 100%;position: fixed;" >
+    
+      <!-- Modal content-->
+      <div class="modal-content" style="height:100%;width: 100%;">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">product nAME</h4>
+        </div>
+        <div class="modal-body">
+         <div class="one_half first"><div>img </div>   <div> for slider</div>></div>
+         <div class="one_half"> <div>PRoduct name </div> 
+         <div>product discription</div>
+         <div>add to cart responsivee khud add karna nai to baad main tujhe issue aaiga</div>
+         
+         </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+
+  <!-- this one is  modal1 every button on nav section opens this  -->
+  
+    <div class="modal fade" id="myModal1" role="dialog" >
+    <div class="modal-dialog" style="height: 100%;width: 100%;position: fixed;" >
+    
+      <!-- Modal content-->
+      <div class="modal-content" style="height:100%;width: 100%; background-color: #ffb7b7">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">prodyct</h4>
+        </div>
+        <div class="modal-body">
+          <p>Some text in the modal.</p>
+        </div>
+        <div class="modal-footer">
+          <a href="#tcx"><button type="button" class="btn btn-default" data-dismiss="modal">Close</button></a>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+  
+      <div class="modal fade" id="myModal3" role="dialog" >
+    <div class="modal-dialog" style="height: 100%;width: 100%;position: fixed;" >
+    
+      <!-- Modal content-->
+      <div class="modal-content" style="height:100%;width: 100%; background-color: #ffb7b7">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">prodyct</h4>
+        </div>
+        <div class="modal-body">
+          <p>Some text in the modal.</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal"><a href="#axv">Close</a></button>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+  <!--   -->
+
+  <div class="modal fade" id="myModal2" role="dialog">
+    <div class="modal-dialog" style="height: 100%;width: 100%;position: fixed;" >
+    
+      <!-- Modal content-->
+      <div class="modal-content" style="height:100%;width: 100%;">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">prodyct</h4>
+        </div>
+        <div class="modal-body">
+          <p>Some text in the modal.</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+  
+
+
+<!-- end modal -->
+<script src="lft/scripts/jquery.min.js"></script>
+<script src="lft/scripts/jquery.backtotop.js"></script>
+<script src="lft/scripts/jquery.mobilemenu.js"></script>
+ 
+</body>
+</html>
+
+
+
+
+<!-- sun bhai aaisa kar last main 2-3 model classs defined hai so do one thing (data-toggle="modal" data-target="#myModal1") is cheez ko harek k andar daal de for example jaisa maine top nav menu k saath kia haiaur ahacker ko bol dena saari images usi format main aani chahiye  
+
+aur waise deekh jo pading hai galley k andar sai lag rahi hai nai to us padding ko bhi remove kar dena baaki hacker k saath deekh le tu main admin page and all kar raha hu usme tym zada lagega ye saala 2 din se kuch nai kia iss liye tujhe bhej raha hu ok -->

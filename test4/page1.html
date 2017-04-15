@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+
+<html lang="">
+<head>
+<title>DEALHOUSE</title>
+
+  <link rel="stylesheet" type="text/css" href="css/component.css" />
+  <script src="js/modernizr.custom.js"></script>
+
+
+<meta charset="utf-8">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<link href="lft/styles/layout.css" rel="stylesheet" type="text/css" media="all">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+
+<script type="text/javascript" src="../js/jssor.slider.mini.js"></script>
+
+ <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/full-slider.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+   <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<link href="lft/styles/layout.css" rel="stylesheet" type="text/css" media="all">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+
+<script type="text/javascript" src="../js/jssor.slider.mini.js"></script>
+
+ <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/full-slider.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+
+<!-- read the discryption at last and also remove unused scripts from the css and java folder -->
+
+<link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="../ideal-image-slider.css">
+  <link rel="stylesheet" href="../themes/default/default.css">
+  <script>
+  $(document).ready(function(){
+
+var quantitiy=0;
+   $('.quantity-right-plus').click(function(e){
+        
+        // Stop acting like a button
+        e.preventDefault();
+        // Get the field name
+        
+        
+        // If is not undefined
+            var quantity = parseInt($('#quantity').val());
+        
+            $('#quantity').val(quantity + 1);
+
+          
+            // Increment
+        
+    });
+
+     $('.quantity-left-minus').click(function(e){
+        // Stop acting like a button
+        e.preventDefault();
+        // Get the field name
+       
+		var quantity = parseInt($('#quantity').val());
+        
+        // If is not undefined
+      
+            // Increment
+            if(quantity>1){
+            $('#quantity').val(quantity - 1);
+            }
+    });
+    
+});
+  </script>
+  <style>
+  div.scroll {
+    background-color: #ede8e8;
+    width: 100%;
+    height: 200px;
+    overflow: scroll;
+}
+.button {
+  border-radius: 4px;
+  background-color:#770707;
+  border: none;
+  color:white;
+  text-align: center;
+  font-size: 28px;
+  padding: -20px;
+  width: 100%;
+  transition: all 0.5s;
+  cursor: pointer;
+  float:right;
+  margin:0px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 20px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+</style>
+  
+  <style media="screen">
+  #slider {
+       margin:0 auto;
+    width: 100%;
+      }
+
+#custom-search-input{
+    padding: 3px;
+    border: solid 1px #E4E4E4;
+    border-radius: 6px;
+    background-color: #fff;
+}
+
+#custom-search-input input{
+    border: 0;
+    box-shadow: none;
+}
+
+#custom-search-input button{
+    margin: 2px 0 0 0;
+    background: none;
+    box-shadow: none;
+    border: 0;
+    color: #666666;
+    padding: 0 8px 0 10px;
+    border-left: solid 1px #ccc;
+}
+
+#custom-search-input button:hover{
+    border: 0;
+    box-shadow: none;
+    border-left: solid 1px #ccc;
+}
+
+#custom-search-input .glyphicon-search{
+    font-size: 23px;
+}
+y
+</style>
+
+
+<style type="text/css">
+/* DEMO ONLY */
+.container .demo{text-align:center;}
+.container .demo div{padding:50px ;}
+.container .demo div:nth-child(odd){color:#FFFFFF; background:#CCCCCC;}
+.container .demo div:nth-child(even){color:#FFFFFF; background:#979797;}
+@media screen and (max-width:900px){.container .demo div{margin-bottom:0;}}
+/* DEMO ONLY */
+</style>
+
+
+<!--   <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>eCommerce Product Detail</title>
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet"> -->
+	<style>
+   
+	</style>
+</head>
+<body id="top">
+
+
+
+<!-- iudhisdjds -->
+
+
+
+
+
+<!-- jduashud -->
+
+<div class="wrapper row0">
+  <div id="topbar" class="hoc clear"> 
+    <div class="fl_left">
+      <ul>
+        <li>user name info to br displayed here </li>
+        <li>TRACK ITEMS</li>
+      </ul>
+    </div>
+    <div class="fl_right">
+      <ul>
+        <li><a href="#"><i class="fa fa-lg fa-home"></i></a></li>
+        <li><a href="#">LOGIN</a></li>  
+         <!--  login and signup on same page  -->
+        <li><a href="#">DEALER LOGIN</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+<div class="wrapper row1">
+  <header id="header" class="hoc clear"> 
+    <div id="logo" class="fl_left">
+      <h1><a href="index.html">DEALHOUSE</a></h1>
+      <p>Be AWWesome.</p>
+    
+
+  
+        <div class="col-md-8">
+            <div id="custom-search-input">
+                <div class="input-group col-md-12">
+                    <input type="text" class="form-control input-lg" placeholder="tell us waht you want " />
+                    <span class="input-group-btn">
+                        <button class="btn btn-info btn-lg" type="button">
+                            <i class="glyphicon glyphicon-search"></i>
+                        </button>
+                    </span>
+                </div>
+            </div>
+        </div>
+</div>
+
+    <div id="quickinfo" class="fl_right">
+      <ul class="nospace inline">
+        <li><strong>CART:</strong><br>
+         </li>
+        <li><strong><button class="cart"> 
+  <a href="#">
+          <span class="glyphicon glyphicon-shopping-cart"></span>
+          <span class="cart__count">0</span>
+    </a>
+    
+    </button> </strong><br>
+          </li>
+      </ul>
+    </div>
+  </header>
+  <div id="tcx"></div>
+  <nav id="mainav" class="hoc clear" > 
+    <ul class="clear">
+      <li class="active"><a href="index.html">HOME</a></li>
+      <li data-toggle="modal" data-target="#myModal3"><a href="#tcx">MEN</a>
+        
+      </li>
+      <li data-toggle="modal" data-target="#myModal1"><a href="#tcx">WOMEN</a>
+        
+      </li>
+      <li data-toggle="modal" data-target="#myModal1"><a href="#tcx">ELECTRONICS</a></li>
+      <li data-toggle="modal" data-target="#myModal1"><a href="#tcx">DROP</a></li>
+      <li data-toggle="modal" data-target="#myModal1"><a href="#tcx">VOTE</a></li>
+      <li data-toggle="modal" data-target="#myModal1" ><a href="#tcx" >DISCUSSIONs</a></li>
+    </ul>
+  </nav>
+</div>
+
+<center><h3><p id="prod_name">Product name</p></h3></center>
+
+<div class ="container " >
+
+<div class="one_half first">
+      <div id='carousel-custom' class='carousel slide' data-ride='carousel'>
+    <div class='carousel-outer'>
+        <!-- me art lab slider -->
+        <div class='carousel-inner '>
+            <div class='item active'>
+                <img src='http://images.asos-media.com/inv/media/8/2/3/3/5313328/print/image1xxl.jpg' alt=''id="zoom_05"  data-zoom-image="http://images.asos-media.com/inv/media/8/2/3/3/5313328/print/image1xxl.jpg"/>
+            </div>
+            <div class='item'  id="zoom_05">
+                <img src='http://images.asos-media.com/inv/media/8/2/3/3/5313328/image2xxl.jpg' alt='' data-zoom-image="http://images.asos-media.com/inv/media/8/2/3/3/5313328/image2xxl.jpg" />
+            </div>
+            <div class='item'>
+                <img src='http://images.asos-media.com/inv/media/8/2/3/3/5313328/image3xxl.jpg' alt='' data-zoom-image="http://images.asos-media.com/inv/media/8/2/3/3/5313328/image3xxl.jpg" />
+            </div>
+                
+            <div class='item'>
+                <img src='http://images.asos-media.com/inv/media/3/6/7/0/4850763/multi/image1xxl.jpg' alt='' data-zoom-image="http://images.asos-media.com/inv/media/3/6/7/0/4850763/multi/image1xxl.jpg" id="zoom_05"/>
+            </div>
+            <div class='item'>
+                <img src='http://images.asos-media.com/inv/media/5/2/1/3/4603125/gold/image1xxl.jpg' alt='' data-zoom-image="http://images.asos-media.com/inv/media/5/2/1/3/4603125/gold/image1xxl.jpg" id="zoom_05"/>
+            </div>
+            <div class='item'>
+                <img src='http://images.asos-media.com/inv/media/5/3/6/8/4948635/mink/image1xxl.jpg' alt='' data-zoom-image="http://images.asos-media.com/inv/media/5/3/6/8/4948635/mink/image1xxl.jpg" id="zoom_05"/>
+            </div>
+           
+            <script>
+  $("#zoom_05").elevateZoom({ zoomType    : "inner", cursor: "crosshair" });
+</script>
+        </div>
+            
+        <!-- sag sol -->
+        <a class='left carousel-control' href='#carousel-custom' data-slide='prev'>
+            <span class='glyphicon glyphicon-chevron-left'></span>
+        </a>
+        <a class='right carousel-control' href='#carousel-custom' data-slide='next'>
+            <span class='glyphicon glyphicon-chevron-right'></span>
+        </a>
+    </div>
+    
+</div>
+
+
+</div>
+<div class="one_half" style="float:right";>
+<div class="scroll">
+The asymmetrical hem and floral print are the essence of this grey kurti from BIBA. This cotton blend kurti promises utmost comfort all day long. Just tag it with white pants and heels.
+
+Cotton blend fabric
+Round neck
+Three quarter sleeves
+Asymmetrical hem
+Floral print
+
+FabricCOTTON BLEND
+LengthMINI
+Sleeves3/4th Sleeves
+NeckRound Neck
+ColorBlue
+
+otton blend fabric
+Round neck
+Three quarter sleeves
+Asymmetrical hem
+Floral print
+
+FabricCOTTON BLEND
+LengthMINI
+Sleeves3/4th Sleeves
+NeckRound Neck
+ColorBlue
+
+otton blend fabric
+Round neck
+Three quarter sleeves
+Asymmetrical hem
+Floral print
+
+FabricCOTTON BLEND
+LengthMINI
+Sleeves3/4th Sleeves
+NeckRound Neck
+ColorBlue
+StylePrinted
+SKUBI021WA98WDTINDFAS
+Model StatsThis model has height 5'9",Bust 34",Waist 24",Hip 36"and is Wearing Size 34.
+
+
+		</div>
+   
+						
+                       
+                                   
+                                <br>
+              <button class="button" style="width: 100%;"><span>+ WISHLIST</span></button>
+              <pre> <center><h4>ADD QUANTITY</h4></center><div class="input-group"><span class="input-group-btn">  <button type="button" class="quantity-left-minus btn btn-danger btn-number"  data-type="minus" data-field="" ><span class="glyphicon glyphicon-minus"></span></button> </span> <input style="text-align:center;" type="text" id="quantity" name="quantity" class="form-control input-number" value="1" min="1" max="100"><span class="input-group-btn"> <button type="button" class="quantity-right-plus btn btn-success btn-number" data-type="plus" data-field=""> <span class="glyphicon glyphicon-plus"></span>
+                                        </button> </span> </div>  </pre>
+                                        <div>
+       <button class="button " style="width: 100%;"><span>+ CART</span></button>
+</div>
+
+
+
+    <div><pre> <ul class="nospace group"><li class="one_quarter first" data-toggle="modal" data-target="#myModal3"><a href="#axv"><img src="images/demo/222x138.png" alt=""></a></li> <li class="one_quarter" data-toggle="modal" data-target="#myModal3"><a href="#axv"><img src="images/demo/222x138.png" alt=""></a></li><li class="one_quarter" data-toggle="modal" data-target="#myModal3"><a href="#axv"><img src="images/demo/222x138.png" alt=""></a></li><li class="one_quarter" data-toggle="modal" data-target="#myModal3"><a href="#axv"><img src="images/demo/222x138.png" alt=""></a></li></ul><br><br><ul class="nospace group"><li class="one_quarter first" data-toggle="modal" data-target="#myModal3"><a href="#axv"><img src="images/demo/222x138.png" alt=""></a></li><li class="one_quarter" data-toggle="modal" data-target="#myModal3"><a href="#axv"><img src="images/demo/222x138.png" alt=""></a></li><li class="one_quarter" data-toggle="modal" data-target="#myModal3"><a href="#axv"><img src="images/demo/222x138.png" alt=""></a></li><li class="one_quarter" data-toggle="modal" data-target="#myModal3"><a href="#axv"><img src="images/demo/222x138.png" alt=""></a></li></ul></div>
+    </pre></div><div>
+  
+    
+	
+</div>
+
+</div>
+
+<div class="wrapper row2">
+  <figure class="hoc container clear"> 
+    
+    <figcaption class="sectiontitle">
+      <h6 class="heading">BEST SELLERS FROM OUR COLLECTION</h6>
+      <!--<p>yaha trending products aainge </p> -->
+    </figcaption>
+	
+    <ul class="nospace group">
+      <li class="one_quarter first" data-toggle="modal" data-target="#myModal3"><a href="#axv"><img src="images/demo/222x138.png" alt=""></a></li>
+      <li class="one_quarter" data-toggle="modal" data-target="#myModal3"><a href="#axv"><img src="images/demo/222x138.png" alt=""></a></li>
+      <li class="one_quarter" data-toggle="modal" data-target="#myModal3"><a href="#axv"><img src="images/demo/222x138.png" alt=""></a></li>
+      <li class="one_quarter" data-toggle="modal" data-target="#myModal3"><a href="#axv"><img src="images/demo/222x138.png" alt=""></a></li>
+    </ul>
+</div>
+
+
+<div class="scroll">
+The asymmetrical hem and floral print are the essence of this grey kurti from BIBA. This cotton blend kurti promises utmost comfort all day long. Just tag it with white pants and heels.
+
+Cotton blend fabric
+Round neck
+Three quarter sleeves
+Asymmetrical hem
+Floral print
+
+FabricCOTTON BLEND
+LengthMINI
+Sleeves3/4th Sleeves
+NeckRound Neck
+ColorBlue
+
+otton blend fabric
+Round neck
+Three quarter sleeves
+Asymmetrical hem
+Floral print
+
+FabricCOTTON BLEND
+LengthMINI
+Sleeves3/4th Sleeves
+NeckRound Neck
+ColorBlue
+
+otton blend fabric
+Round neck
+Three quarter sleeves
+Asymmetrical hem
+Floral print
+
+FabricCOTTON BLEND
+LengthMINI
+Sleeves3/4th Sleeves
+NeckRound Neck
+ColorBlue
+StylePrinted
+SKUBI021WA98WDTINDFAS
+Model StatsThis model has height 5'9",Bust 34",Waist 24",Hip 36"and is Wearing Size 34.
+
+
+    </div>
+   
+
+
+<div class="wrapper row4 bgded overlay" style="background-color: black;">
+  <footer id="footer" class="hoc clear" > 
+    <div class="one_third first">
+      <h6 class="heading">YE TOUCH MAT KARNA ISKE LIYE BAAD MAIN BATATA HU</h6>
+      <ul class="nospace btmspace-30 linklist contact">
+        <li>
+          
+        </li>
+        <li>aa</li>
+        <li>aa</li>
+        <li>aa</li>
+      </ul>
+    </div>
+    <div class="one_third">
+      <h6 class="heading">GET UPDATES</h6>
+      <p class="nospace btmspace-30">SUBSCRIBE TO OUR NEWSLETTER BY FILLING THE LINK BELOW </p>
+  
+         <!--  isse bhi deekh lena working hona cahiye user ek baar main sabko loveletter bhej sake  -->
+
+      <form method="post" action="#">
+        <fieldset>
+          <legend>Newsletter:</legend>
+          <input class="btmspace-15" type="text" value="" placeholder="Name">
+          <input class="btmspace-15" type="text" value="" placeholder="Email">
+          <button type="submit" value="submit">Submit</button>
+        </fieldset>
+      </form>
+    </div>
+    <div class="one_third">
+      <h6 class="heading">Locate us</h6>
+      <figure><a href="#"><img class="borderedbox inspace-10 btmspace-15" src="map" alt=""></a>
+        <figcaption>
+          <h6 class="nospace font-x1"><a href="#">MAP LAGANA HAI YAHA LAGAUNGA BAADME AISE HI CHOOD DENA ISSE</a></h6>
+        
+        </figcaption>
+      </figure>
+    </div>
+  </footer>
+</div>
+<div class="wrapper row5">
+  <div id="copyright" class="hoc clear"> 
+    <p class="fl_left">Copyright &copy; 2017 - All Rights Reserved - <a href="#">DEALHOUSE</a></p>
+   
+  </div>
+</div>
+</body>
+
+<!-- end modal -->
+
+
+<!-- end modal -->
+<script src="lft/scripts/jquery.min.js"></script>
+<script src="lft/scripts/jquery.backtotop.js"></script>
+<script src="lft/scripts/jquery.mobilemenu.js"></script>
+ 
+</html>
